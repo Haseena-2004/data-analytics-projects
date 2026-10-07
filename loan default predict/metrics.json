@@ -1,0 +1,37 @@
+{
+  "data": "synthetic",
+  "rows": 6000,
+  "default_rate": 0.25466666666666665,
+  "cv_results": {
+    "Logistic Regression": {
+      "accuracy": 0.6725,
+      "precision": 0.4117,
+      "recall": 0.6669,
+      "f1": 0.5091,
+      "roc_auc": 0.7369
+    },
+    "Random Forest": {
+      "accuracy": 0.7367,
+      "precision": 0.4826,
+      "recall": 0.455,
+      "f1": 0.4682,
+      "roc_auc": 0.7198
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7596,
+      "precision": 0.5743,
+      "recall": 0.2218,
+      "f1": 0.3195,
+      "roc_auc": 0.717
+    }
+  },
+  "selected_model": "Logistic Regression",
+  "test_metrics": {
+    "accuracy": 0.6858333333333333,
+    "precision": 0.42557651991614254,
+    "recall": 0.6633986928104575,
+    "f1": 0.5185185185185185,
+    "roc_auc": 0.7296391338041555
+  },
+  "train_roc_auc": 0.7408480997256375
+}
