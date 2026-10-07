@@ -1,0 +1,29 @@
+{
+  "data_source": "SYNTHETIC data generated in code (same schema as the Kaggle dataset)",
+  "rows": 2200,
+  "selected_model": "Logistic Regression",
+  "cv_accuracy": {
+    "Logistic Regression": 0.9227272727272728,
+    "KNN": 0.9005681818181819,
+    "Random Forest": 0.9045454545454545
+  },
+  "best_params": {
+    "m__C": 10
+  },
+  "test_metrics": {
+    "accuracy": 0.9204545454545454,
+    "precision_macro": 0.9224403122130393,
+    "recall_macro": 0.9204545454545453,
+    "f1_macro": 0.9199329851564652
+  },
+  "train_accuracy": 0.9409090909090909,
+  "feature_importance": {
+    "ph": 0.06459299628666329,
+    "temperature": 0.08630518689004743,
+    "K": 0.13014128542225678,
+    "N": 0.1310335901190489,
+    "P": 0.17336204434142818,
+    "rainfall": 0.20706273113322254,
+    "humidity": 0.20750216580733288
+  }
+}
