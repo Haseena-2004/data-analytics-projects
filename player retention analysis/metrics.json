@@ -1,0 +1,22 @@
+{
+  "data": "synthetic",
+  "players": 8000,
+  "channel_test": {
+    "test": "two-proportion z-test D7 retention: referral vs ads_network",
+    "referral": 0.325609756097561,
+    "ads_network": 0.21273445212240868,
+    "diff": 0.1128753039751523,
+    "ci95": [
+      0.07618323974916777,
+      0.14956736820113684
+    ],
+    "z": 6.338670514549141,
+    "p_value": 2.317561698106374e-10
+  },
+  "engagement_vs_week4": {
+    "r": 0.21771055609627252,
+    "p_value": 1.8998699133826145e-86,
+    "n": 8000
+  },
+  "anomalous_days": 0
+}
